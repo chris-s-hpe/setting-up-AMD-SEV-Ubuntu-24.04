@@ -497,9 +497,9 @@ You can run the snpguest tool at any stage, to verify that SEV, SEV-ES or SNP is
 E.g. for SNP enabled guest it looks like this:
 ```shell
 root@sev-test-vm-1:~/snpguest# ./target/debug/snpguest ok
-[ PASS ] - SEV: DISABLED
-[ PASS ] - SEV-ES: DISABLED
-[ PASS ] - SNP: DISABLED
+[ PASS ] - SEV: ENABLED
+[ PASS ] - SEV-ES: ENABLED
+[ PASS ] - SNP: ENABLED
 [ PASS ] - Optional Features statuses:
 [ PASS ]   - VTOM: DISABLED
 [ PASS ]   - ReflectVC: DISABLED
