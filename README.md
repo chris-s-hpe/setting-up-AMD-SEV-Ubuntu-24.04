@@ -1,4 +1,6 @@
-# How to Setup AMD SEV and SNP on Ubuntu 24.04
+# How to Setup the AMDSEV project on Ubuntu 24.04
+
+#NOTE - THIS IS RECENTLY DEPRECATED. Since Kernel 6.11 SNP has been enabled in the kernel, so there is no need to use the AMDSEV project. Now you can enable SEV/SNP on the HOST or VM just by having Kernel 6.11 installed.
 
 # Step 1 - Setup APT repositories and install necessary packages
 
